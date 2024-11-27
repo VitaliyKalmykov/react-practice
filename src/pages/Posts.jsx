@@ -73,7 +73,7 @@ function Posts() {
                 :
                 <PostList remove={removePost} posts={sortedAndSearchedPosts} title={"Posts List 1"} /> }
             <Pagination
-                pages={page}
+                page={page}
                 totalPages={totalPages}
                 changePage={changePage} />
         </div>
